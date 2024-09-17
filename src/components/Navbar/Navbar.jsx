@@ -1,22 +1,27 @@
+import { ThemeToggle } from '../ThemeToggle';
+
 export const Navbar = () => {
     return (
-        <nav>
-            <ul>
-                <div>
-                    <a href="/">Home</a>
-                </div>
-                <div>
-                    <a href="/about">About</a>
-                </div>
-                <div>
-                    <a href="/projects">Projects</a>
-                </div>
-                <div>
-                    <a href="/tech">Technologies</a>
-                </div>
-                <div>
-                    <a href="/contact">Contact</a>
-                </div>
+        <nav className="bg-white dark:bg-gray-900 p-4">
+            <ul className="flex space-x-4">
+                <li>
+                    <a href="/" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">Home</a>
+                </li>
+                <li>
+                    <a href="/about" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">About</a>
+                </li>
+                <li>
+                    <a href="/projects" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">Projects</a>
+                </li>
+                <li>
+                    <a href="/tech" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">Technologies</a>
+                </li>
+                <li>
+                    <a href="/contact" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">Contact</a>
+                </li>
+                <li>
+                    <ThemeToggle />
+                </li>
             </ul>
         </nav>
     );

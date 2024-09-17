@@ -17,10 +17,11 @@ export const ThemeToggle = () => {
   };
 
   return (
-    <button onClick={toggleTheme} className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full">
-      {theme === 'dark' ? '🌝' : '🌚 '}
+    <button
+      onClick={toggleTheme}
+      className="p-2 w-10 h-10 bg-gray-200 dark:bg-gray-800 text-xl rounded-full flex items-center justify-center"
+    >
+      {theme === 'dark' ? '🌝' : '🌚'}
     </button>
   );
 };
-
-// TODO: 🌚🌝 My button won't turn into a full circle. 

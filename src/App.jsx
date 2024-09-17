@@ -12,7 +12,7 @@ function App() {
           element={
             <>
               {<Navbar />}
-              {<ThemeToggle />}
+              {/* {<ThemeToggle />} */}
               <Outlet />
             </>
           }
