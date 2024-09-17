@@ -21,3 +21,5 @@ export const Navbar = () => {
         </nav>
     );
 }
+
+// TODO: have each button in the nav move to the correct header on the page

@@ -2,10 +2,10 @@
 
 Welcome to my developer portfolio! This portfolio showcases the following:
 
-# Bio
+## Bio
 
-# Projects
+## Projects
 
-# Tech Stack
+## Tech Stack
 
-# Contact
+## Contact
