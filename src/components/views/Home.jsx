@@ -10,7 +10,7 @@ export const Home = () => {
             {/* Bio Section */}
             <section id="bio" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Bio</h2>
-                <p className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                <p className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                 Hey there, I'm Michael, a junior full-stack web developer entering the tech industry from the side-door.
                 <br />
                 <br />
@@ -30,7 +30,7 @@ export const Home = () => {
             {/* Tech Stack Section */}
             <section id="tech" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Technologies</h2>
-                <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md ">
+                <div className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md ">
                     <ScrollingLogoSlider />
                 </div>
             </section>            
@@ -38,7 +38,7 @@ export const Home = () => {
             {/* Projects Section */}
             <section id="projects" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Projects</h2>
-                <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                <div className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                     <ul className="list-disc list-inside">
                         <div>
                             <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">View Code</a></strong></h3>
@@ -86,7 +86,7 @@ export const Home = () => {
             {/* Contact Section */}
             <section id="contact" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
-                <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                <div className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                     <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@michaelthinks.co" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>
                 </div>
             </section>

@@ -4,7 +4,7 @@ import { ThemeToggle } from "./ThemeToggle";
 export const Navbar = () => {
     return (
         <div className="flex justify-center bg-white dark:bg-gray-900 p-4">
-            <nav>
+            <nav className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                 <ul className="flex space-x-4">
                     <li>
                         <a href="#bio" className="text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300">About</a>
