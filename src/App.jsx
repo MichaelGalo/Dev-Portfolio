@@ -1,7 +1,7 @@
 import { Outlet, Route, Routes } from 'react-router-dom'
 import { Home } from './components/views/Home'
-import { Navbar } from './components/Navbar/Navbar'
 import { ThemeToggle } from './components/ThemeToggle'
+import { Navbar } from './components/Navbar'
 
 function App() {
 

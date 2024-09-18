@@ -1,4 +1,5 @@
-import { ThemeToggle } from '../ThemeToggle';
+import { ThemeToggle } from "./ThemeToggle";
+
 
 export const Navbar = () => {
     return (

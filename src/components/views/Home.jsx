@@ -1,3 +1,5 @@
+import { ScrollingLogoSlider } from "../ScrollingLogoSlider";
+
 export const Home = () => {
 
     return (
@@ -29,17 +31,7 @@ export const Home = () => {
             <section id="tech" className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">Technologies</h2>
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                    <ul className="list-disc list-inside">
-                        <div>HTML</div>
-                        <div>JavaScript</div>
-                        <div>React</div>
-                        <div>Node.js</div>
-                        <div>CSS</div>
-                        <div>Bootstrap</div>
-                        <div>Tailwind</div>
-                        <div>Python</div>
-                        <div>Django</div>
-                    </ul>
+                    <ScrollingLogoSlider />
                 </div>
             </section>            
 
@@ -49,7 +41,7 @@ export const Home = () => {
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                     <ul className="list-disc list-inside">
                         <div>
-                            <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">View Code</a></strong></h3>
+                            <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">View Code</a></strong></h3>
                             <p>Roll-for-Recipe allows a user to create, read, update and delete recipes while also giving the
                             functionality to pick however many recipes a user thinks they'll need to cook that week. It will take from your saved recipes (whether authored or favorited) and generate random options to select from. In addition it will automatically create a shopping list that can be utilized while grocery shopping.
                             <br />
@@ -76,7 +68,7 @@ export const Home = () => {
                         <hr />
                         <br />                
                         <div>
-                            <h3><strong>Group Project: Rare Publishing | <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
+                            <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
                             <p>This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of ticks. 
                             <br />
                             <br />
@@ -95,7 +87,7 @@ export const Home = () => {
             <section id="contact" className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                    <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:michael@example.com" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>
+                    <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@example.com" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>
                 </div>
             </section>
         </div>
