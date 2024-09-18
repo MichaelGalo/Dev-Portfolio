@@ -4,7 +4,7 @@ const logos = [
 
 export const ScrollingLogoSlider = () => {
   return (
-    <div className="w-full overflow-hidden bg-gray-200 dark:bg-gray-800 py-2">
+    <div className="w-full overflow-hidden bg-gray-2`00 dark:bg-gray-800 py-2">
       <div className="flex animate-scroll">
         {[...logos, ...logos, ...logos].map((logo, index) => (
           <img
