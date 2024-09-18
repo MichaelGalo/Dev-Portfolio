@@ -58,7 +58,7 @@ export const Home = () => {
                         <hr />
                         <br />
                         <div>
-                            <h3><strong>NSS Server-Side Capstone: Nook</strong></h3>
+                            <h3><strong>NSS Server-Side Capstone: Nook | (Scheduled for Nov Release)</strong></h3>
                             <p>Nook allows a user to access a platform where users can manage their book collections, including adding, editing, deleting, and viewing books. Features such as books-to-read, books read, current book & progress bar among others would make this a useful tool for book worms looking to keep track of their reading.</p>
                             <br />
                             <strong>Primary learning objectives: </strong>
