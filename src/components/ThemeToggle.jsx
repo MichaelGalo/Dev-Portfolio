@@ -19,7 +19,7 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 w-10 h-10 bg-gray-200 dark:bg-gray-800 text-xl rounded-full flex items-center justify-center"
+      className="p-1 w-6 h-6 bg-gray-200 dark:bg-gray-800 text-m rounded-full flex items-center justify-center content-center"
     >
       {theme === 'dark' ? '🌝' : '🌚'}
     </button>
