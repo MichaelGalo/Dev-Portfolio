@@ -8,7 +8,7 @@ export const Home = () => {
             <h2 className="text-3xl font-semibold text-center">Developer Portfolio</h2>
             
             {/* Bio Section */}
-            <section id="bio" className="mb-8">
+            <section id="bio" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Bio</h2>
                 <p className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                 Hey there, I'm Michael, a junior full-stack web developer entering the tech industry from the side-door.
@@ -28,15 +28,15 @@ export const Home = () => {
             </section>
 
             {/* Tech Stack Section */}
-            <section id="tech" className="mb-8">
+            <section id="tech" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Technologies</h2>
-                <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md ">
                     <ScrollingLogoSlider />
                 </div>
             </section>            
 
             {/* Projects Section */}
-            <section id="projects" className="mb-8">
+            <section id="projects" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Projects</h2>
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                     <ul className="list-disc list-inside">
@@ -84,7 +84,7 @@ export const Home = () => {
 
 
             {/* Contact Section */}
-            <section id="contact" className="mb-8">
+            <section id="contact" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
                     <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@example.com" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>

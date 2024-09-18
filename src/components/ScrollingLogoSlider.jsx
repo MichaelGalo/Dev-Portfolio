@@ -1,5 +1,5 @@
 const logos = [
-  "src/assets/HTML.png", "src/assets/CSS.png", "src/assets/JS.png", "src/assets/React.jpg", "src/assets/Node.js.png", "src/assets/Bootstrap.png", "src/assets/Tailwind.png", "src/assets/Python.png", "src/assets/Django.png", "src/assets/Git.png", "src/assets/GitHub.png"
+  "src/assets/HTML.png", "src/assets/CSS.png", "src/assets/JS.png", "src/assets/React.png", "src/assets/Node.js.png", "src/assets/Bootstrap.png", "src/assets/Tailwind.png", "src/assets/Python.png", "src/assets/Django.png", "src/assets/Git.png", "src/assets/GitHub.png"
 ];
 
 export const ScrollingLogoSlider = () => {
