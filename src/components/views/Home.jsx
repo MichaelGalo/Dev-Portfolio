@@ -87,7 +87,7 @@ export const Home = () => {
             <section id="contact" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                    <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@example.com" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>
+                    <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@michaelthinks.co" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a>.</p>
                 </div>
             </section>
         </div>
