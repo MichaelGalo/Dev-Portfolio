@@ -61,15 +61,20 @@ export const Home = () => {
                             <h3><strong>NSS Server-Side Capstone: Nook | (Scheduled for Nov Release)</strong></h3>
                             <p>Nook allows a user to access a platform where users can manage their book collections, including adding, editing, deleting, and viewing books. Features such as books-to-read, books read, current book & progress bar among others would make this a useful tool for book worms looking to keep track of their reading.</p>
                             <br />
+                            <br />
+                            <strong>Problem this app solves: </strong>
+                            While other book management apps exist, I wanted to create a platform that was more user-friendly, visually appealing and had a more personalized feature set. I wanted to create a platform that was more than just a list of books, but a tool that could help users track their reading progress, set goals and keep track of their reading habits.
+                            <br />
+                            <br />
                             <strong>Primary learning objectives: </strong>
-                            Continued React proficiency, learning Django, creating a RESTful API, creating a full-stack application, managing a database, implementing a user authentication system, and creating a user-friendly UI/UX.
+                            Continued React proficiency, transitioning from Python to Django, creating a RESTful API, creating a full-stack application, managing a database, implementing a user authentication system, and creating a user-friendly UI/UX.
                         </div>
                         <br />
                         <hr />
                         <br />                
                         <div>
                             <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
-                            <p>This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of ticks. 
+                            <p>This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. 
                             <br />
                             <br />
                             Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
