@@ -67,7 +67,7 @@ export const Home = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
-                        <h3><strong>Group Project: Bangazon | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-client-404prime">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-api-404prime">API Code</a></strong></h3>
+                        <h3><strong>Full-Stack: Bangazon | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-client-404prime">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-api-404prime">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         This project was designed to simulate the experience of joining a larger, e-commerce project with an unfamiliar codebase and a framework we didn't know. This project utilizes Next.js, which was unfamiliar to us. We also learned about integration testing and had to learn how to create our own tests & custom reports. I worked on tasks involving bug fixes, new feature development, custom reporting and automated testing. 
                         <br />
@@ -77,12 +77,32 @@ export const Home = () => {
                         <br />
                         <hr />
                         <br />
-                        <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
+                        <h3><strong>Full-Stack: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
                         <br />
                         <br />
                         <strong>Project Goals:</strong> Simulate a real-world working environment by working with a team to create a full-stack application with a SCRUM workflow. Emphasis on weighting issue tickets, practicing great communication, PR & code reviews, and retrospectives.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <h3><strong>Client-Side: Exomine | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/exomine-elden-mine">View Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        This was a group project that aimed to manage the resources for minerals between colonies housed on different planets. The main focus of this app was communication, issue-ticket creation and algorithmic thinking on how to tackle the ERD. On top of that, it was one of the first projects we really tackled CSS strategy. 
+                        <br />
+                        <br />
+                        <strong>Project Goals:</strong> Practicing with Git & GitHub Project boards, managing merge conflicts, Pull Request best practices, ERD collaboration and pseudo-coding our modules ahead of development. Also there was a focus on managing state in Vanilla JS.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <h3><strong>Client-Side: Cider Falls | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/cider-falls-hard-coded-cider">View Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        This project had our team building an application for the Cider Falls National Park that will track park area, park activities, and park guests. This project was our first with zero boilerplate code, so we had to manage every piece of the development process ourselves.
+                        <br />
+                        <br />
+                        <strong>Project Goals:</strong> Communication with difficult or different teammate communication styles, delegation of issue tickets, wire-framing and self-guided education on new JavaScript array and string methods. 
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
@@ -114,3 +134,4 @@ export const Home = () => {
 }
 
 
+// https://github.com/NSS-Day-Cohort-71/cider-falls-hard-coded-cider
