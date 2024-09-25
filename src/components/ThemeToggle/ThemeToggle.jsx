@@ -30,10 +30,3 @@ export const ThemeToggle = () => {
   );
 };
 
-
-    // <button
-    //   onClick={toggleTheme}
-    //   className="p-1 w-6 h-6 bg-gray-200 dark:bg-gray-800 text-m rounded-full flex items-center justify-center content-center"
-    // >
-    //   {theme === 'dark' ? '🌝' : '🌚'}
-    // </button>

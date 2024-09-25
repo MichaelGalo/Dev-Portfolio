@@ -67,6 +67,16 @@ export const Home = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
+                        <h3><strong>Group Project: Bangazon | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-client-404prime">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/bangazon-api-404prime">API Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        This project was designed to simulate the experience of joining a larger, e-commerce project with an unfamiliar codebase and a framework we didn't know. This project utilizes Next.js, which was unfamiliar to us. We also learned about integration testing and had to learn how to create our own tests & custom reports. I worked on tasks involving bug fixes, new feature development, custom reporting and automated testing. 
+                        <br />
+                        <br />
+                        <strong>Project Goals:</strong> Effective & efficient reading of documentation for unfamiliar technologies (a legacy version of Next.js), debugging an unfamiliar codebase, creation of integration tests, Django custom reports, and an introduction to Server-Side Rendering. 
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
                         <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
@@ -74,16 +84,6 @@ export const Home = () => {
                         <br />
                         <strong>Project Goals:</strong> Simulate a real-world working environment by working with a team to create a full-stack application with a SCRUM workflow. Emphasis on weighting issue tickets, practicing great communication, PR & code reviews, and retrospectives.
                         </p>
-                        <br />
-                        <hr />
-                        {/* <br />
-                        <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
-                        <p class="text-sm text-black dark:text-gray-400">
-                        This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
-                        <br />
-                        <br />
-                        <strong>Project Goals:</strong> Simulate a real-world working environment by working with a team to create a full-stack application with a SCRUM workflow. Emphasis on weighting issue tickets, practicing great communication, PR & code reviews, and retrospectives.
-                        </p> */}
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
                         <h3><strong>Reader's Digest API | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">API Code</a></strong></h3>
