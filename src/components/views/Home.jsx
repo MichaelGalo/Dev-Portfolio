@@ -21,10 +21,7 @@ export const Home = () => {
                 Why did I make the switch? 
                 <br />
                 <br />
-                While I've always chased after creative pursuits (photography, design, writing, etc.), I hadn't quite found the analytical challenge I was craving. After learning to solve real-life problems with code, I found a fantastic blend of logic, creativity and a sprinkling of magic. The rest is history.
-                <br />
-                <br />
-                As I'm new to the industry as a whole, I'd love to meet up with all of you Nashville & beyond tech-wizards!
+                While I've always chased after creative pursuits (photography, design, writing, etc.), I hadn't quite found the analytical challenge I was craving. After learning to solve real-life problems with code, I found a fantastic blend of logic, creativity and a sprinkling of magic. After that, I was hooked.
                 </p>
             </section>
 
@@ -95,10 +92,11 @@ export const Home = () => {
                         </p>
                         <br />
                         <hr />
-                        {/* <h3><strong>Example Project | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">View Code</a></strong></h3>
+                        <br />
+                        <h3><strong>Learning Moments | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/learning-moments">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus architecto ea laudantium, sint accusantium, labore ratione aperiam et nisi aliquam unde non excepturi magnam quibusdam iste tempore id consectetur consequatur.
-                        </p> */}
+                        This application is a simple client-side CRUD (Create, Read, Update, Delete) application that uses a JSON database. It was developed as a learning project to understand the basics of client-side CRUD functionality in React prior to my capstone season. The goal of this app was to showcase whenever you or someone you know has an "ah-ha!" moment to share -- similar to a basic twitter clone.
+                        </p>
                     </div>
                 </div>
             </section>
