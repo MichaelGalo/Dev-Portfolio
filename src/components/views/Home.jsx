@@ -48,16 +48,16 @@ export const Home = () => {
                             <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="dashboard-styled-tab" data-tabs-target="#styled-dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Server-Side Capstone</button>
                         </li>
                         <li class="me-2" role="presentation">
-                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="settings-styled-tab" data-tabs-target="#styled-settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Group</button>
+                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="settings-styled-tab" data-tabs-target="#styled-settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Group Projects</button>
                         </li>
                         <li role="presentation">
-                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="contacts-styled-tab" data-tabs-target="#styled-contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">Individual</button>
+                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="contacts-styled-tab" data-tabs-target="#styled-contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">Individual Projects</button>
                         </li>
                     </ul>
                 </div>
                 <div id="default-styled-tab-content">
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">View Code</a></strong></h3>
+                        <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         Roll-for-Recipe allows a user to create, read, update and delete recipes while also giving the
                         functionality to pick however many recipes a user thinks they'll need to cook that week. It will take from your saved recipes (whether authored or favorited) and generate random options to select from. In addition it will automatically create a shopping list that can be utilized while grocery shopping. Read on <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">here</a>.
@@ -72,19 +72,33 @@ export const Home = () => {
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
                         <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. 
-                        <br />
-                        <br />
-                        Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
+                        This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
                         <br />
                         <br />
                         <strong>Project Goals:</strong> Simulate a real-world working environment by working with a team to create a full-stack application with a SCRUM workflow. Emphasis on weighting issue tickets, practicing great communication, PR & code reviews, and retrospectives.
                         </p>
+                        <br />
+                        <hr />
+                        {/* <br />
+                        <h3><strong>Group Project: Rare Publishing | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-client-jam_clamz">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/NSS-Day-Cohort-71/rare-api-jam_clamz_api">API Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        This was a group project from NSS that was meant to simulate an endless backlog of issue tickets in a Github project board. The goal was not to finish the project, but to practice strategies & teamwork on how to tackle an endless flow of tickets. Ultimately, the finished application would give users the ability to submit, update and comment on posts. The posts would also be organized by tags and categories making it easier for the reader to find the posts they are searching for.
+                        <br />
+                        <br />
+                        <strong>Project Goals:</strong> Simulate a real-world working environment by working with a team to create a full-stack application with a SCRUM workflow. Emphasis on weighting issue tickets, practicing great communication, PR & code reviews, and retrospectives.
+                        </p> */}
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
+                        <h3><strong>Reader's Digest API | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                            (Coming Soon)
+                        The Readers Digest API is a Django-based back-end application that enables users to create, retrieve, update, and delete book reviews. Built with Django REST Framework, the API supports secure user authentication, book and review management, and many-to-many relationships for categorizing books. It also integrates SQLite3 for data storage, uses fixtures for efficient database seeding, and includes CORS support to allow seamless frontend communication. This project demonstrates my ability to design RESTful APIs, manage relational databases, and implement user authentication in web applications.
                         </p>
+                        <br />
+                        <hr />
+                        {/* <h3><strong>Example Project | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">View Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus architecto ea laudantium, sint accusantium, labore ratione aperiam et nisi aliquam unde non excepturi magnam quibusdam iste tempore id consectetur consequatur.
+                        </p> */}
                     </div>
                 </div>
             </section>
