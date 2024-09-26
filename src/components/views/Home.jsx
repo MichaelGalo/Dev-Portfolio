@@ -106,6 +106,13 @@ export const Home = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
+                        <h3><strong>Gamer-Rater | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Gamerrater">API Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/gamerrater-client">Client Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        Gamer-Rater is a full-stack web application that allows users to create, retrieve, update, and delete game entries, ratings, and reviews. Built with a Django REST Framework back-end and a React front-end, the app supports secure user authentication, game management, image uploads, and custom properties for calculating average game ratings. It also enables advanced search and sorting functionality, ensuring users can easily explore games. The project integrates SQLite3 for data storage and includes many-to-many relationships for categorizing games, displaying what I've learned in full-stack development, RESTful API design, and user authentication.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
                         <h3><strong>Reader's Digest API | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         The Readers Digest API is a Django-based back-end application that enables users to create, retrieve, update, and delete book reviews. Built with Django REST Framework, the API supports secure user authentication, book and review management, and many-to-many relationships for categorizing books. It also integrates SQLite3 for data storage, uses fixtures for efficient database seeding, and includes CORS support to allow seamless frontend communication. This project demonstrates my ability to design RESTful APIs, manage relational databases, and implement user authentication in web applications.
