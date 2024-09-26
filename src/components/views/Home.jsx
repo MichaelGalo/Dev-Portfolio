@@ -115,7 +115,14 @@ export const Home = () => {
                         <br />
                         <h3><strong>Learning Moments | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/learning-moments">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        This application is a simple client-side CRUD (Create, Read, Update, Delete) application that uses a JSON database. It was developed as a learning project to understand the basics of client-side CRUD functionality in React prior to my capstone season. The goal of this app was to showcase whenever you or someone you know has an "ah-ha!" moment to share -- similar to a basic twitter clone.
+                        This application is a simple client-side CRUD application that uses a JSON database. It was developed as a learning project to understand the basics of client-side CRUD functionality in React prior to my capstone season. The goal of this app was to showcase whenever you or someone you know has an "ah-ha!" moment to share -- similar to a basic twitter clone.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <h3><strong>Honey Rae's Repairs | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/honey-rae-repairs">Client Code</a></strong></h3>
+                        <p class="text-sm text-black dark:text-gray-400">
+                        Honey Rae Repairs is a basic CRUD (Create, Read, Update, Delete) application designed for a hardware tech repair shop. The app allows customers to create service tickets for their hardware issues and employees to claim and manage those tickets. This project was built using React and Vite, marking my first experience transitioning from vanilla JavaScript to React.
                         </p>
                     </div>
                 </div>
