@@ -12,16 +12,13 @@ export const Home = () => {
             <section id="bio" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Bio</h2>
                 <p className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                Hey there, I'm Michael, a junior full-stack web developer entering the tech industry from the side-door.
+                Hey there, I'm Michael, I'm a junior full-stack web developer entering the tech industry from the side-door.
                 <br />
                 <br />
-                Transitioning from a career in non-profit marketing & communications from the entry level to the executive level, I bring to the team years of project collaboration, strategy communication and problem-solving. With around a decade working in marketing and brand-management, I decided to take the scary, next right step into tech.
+                Transitioning from a first career in non-profit marketing & communications, I hadn't quite found the analytical challenge I was craving in my career. Combine this with a lego-filled childhood and the door never opened named <strong>engineering</strong>, I decided to take that a leap of faith into a new realm: <strong>software</strong>. 
                 <br />
                 <br />
-                Why did I make the switch? 
-                <br />
-                <br />
-                While I've always chased after creative pursuits (photography, design, writing, etc.), I hadn't quite found the analytical challenge I was craving. After learning to solve real-life problems with code, I found a fantastic blend of logic, creativity and a sprinkling of magic. After that, I was hooked.
+                After learning to solve real-life headaches with code, I discovered an intoxicating recipe of logic, creativity, imposter syndrome and deep fulfillment in the projects I was working on. After that, I knew I wasn't going back. This is the most fun I've had with my work in years. I can't wait to see how many more surprises software development has in store for me and how I can turn novel ideas into apps that make people smile. 
                 </p>
             </section>
 
