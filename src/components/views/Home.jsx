@@ -15,10 +15,10 @@ export const Home = () => {
                 Hey there, I'm Michael, I'm a junior full-stack web developer entering the tech industry from the side-door.
                 <br />
                 <br />
-                Transitioning from a first career in non-profit marketing & communications, I hadn't quite found the analytical challenge I was craving in my career. Combine this with a lego-filled childhood and the door never opened named <strong>engineering</strong>, I decided to take that a leap of faith into a new realm: <strong>software</strong>. 
+                Transitioning from a first career in non-profit marketing & communications, I hadn't quite found the analytical challenge I was craving in my career. Combine this with a lego-filled childhood and the door never opened named <strong>engineering</strong>, I decided to finally walk through it into a new journey: <strong>software development</strong>. 
                 <br />
                 <br />
-                After learning to solve real-life headaches with code, I discovered an intoxicating recipe of logic, creativity, imposter syndrome and deep fulfillment in the projects I was working on. After that, I knew I wasn't going back. This is the most fun I've had with my work in years. I can't wait to see how many more surprises software development has in store for me and how I can turn novel ideas into apps that make people smile. 
+                After learning to solve some real-life headaches with code, I discovered an intoxicating recipe of logic, creativity, imposter syndrome and deep fulfillment in the projects I was working on. After that, I knew I wasn't going back. This is the most fun I've had with my work in years. I can't wait to see how many more surprises software development has in store for me and how I can turn novel ideas into apps that make an impact, solve problems, and make people smile. 
                 </p>
             </section>
 
@@ -58,9 +58,9 @@ export const Home = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-                        <h3><strong>NSS Server-Side Capstone: Nook | (Scheduled for Nov Release)</strong></h3>
+                        <h3><strong>NSS Server-Side Capstone: Chari-Tree | (Scheduled for Nov Release)</strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        <p>Nook allows a user to access a platform where users can manage their book collections, including adding, editing, deleting, and viewing books. Features such as books-to-read, books read, current book & progress bar among others would make this a useful tool for book worms looking to keep track of their reading.</p>
+                        <p>Imagine a charity app that turns your generosity into a thriving virtual forest. With Chari-Tree, you can easily track your donations to selected causes, see the real-world impact of your giving, and watch as your contributions grow from a tiny seed into a mighty redwood -- or a whole forest. Set giving goals based on your income, visualize your long-term impact, and challenge yourself to create an entire forest of change. Chari-Tree makes philanthropy engaging and with clarity, helping you see how even small donations can make a big difference over time.</p>
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
@@ -137,12 +137,9 @@ export const Home = () => {
             <section id="contact" className="mb-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
                 <div className="bg-gray-200 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                    <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@michaelthinks.co" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a> or find me <a target="_blank" href="https://linktr.ee/michaelthinks" className="text-blue-500 dark:text-blue-300">HERE</a> on social media.</p>
+                    <p>If you'd like to get in touch, feel free to reach out via email at <a target="_blank" href="mailto:michael@michaelthinks.co" className="text-blue-500 dark:text-blue-300">michael@michaelthinks.co</a> or find me <a target="_blank" href="https://linktr.ee/michaelthinks" className="text-blue-500 dark:text-blue-300">HERE</a> on several social platforms.</p>
                 </div>
             </section>
         </div>
     );
 }
-
-
-// https://github.com/NSS-Day-Cohort-71/cider-falls-hard-coded-cider
