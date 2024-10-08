@@ -30,9 +30,9 @@ export const Projects = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-                        <h3><strong>NSS Server-Side Capstone: Chari-Tree | (Scheduled for Nov Release)</strong></h3>
+                        <h3><strong>NSS Server-Side Capstone: Impactree | (Currently Under Development) | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Impactree">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Impactree-API">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        <p>Imagine a charity app that turns your generosity into a thriving virtual forest. With Chari-Tree, you can easily track your donations to selected causes, see the real-world impact of your giving, and watch as your contributions grow from a tiny seed into a mighty redwood -- or a whole forest. Set giving goals based on your income, visualize your long-term impact, and challenge yourself to create an entire forest of change. Chari-Tree makes philanthropy engaging and with clarity, helping you see how even small donations can make a big difference over time.</p>
+                        <p>Imagine a charity app that turns your generosity into a thriving virtual forest. With Impactree, you can easily track your donations to selected causes, see the real-world impact of your giving, and watch as your contributions grow from a tiny seed into a mighty redwood -- or a whole forest. Set giving goals based on your income, visualize your long-term impact, and challenge yourself to create an entire forest of change. Impactree makes philanthropy engaging and with clarity, helping you see how even small donations can make a big difference over time.</p>
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
@@ -75,28 +75,28 @@ export const Projects = () => {
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
-                        <h3><strong>Gamer-Rater | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Gamerrater">API Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/gamerrater-client">Client Code</a></strong></h3>
+                        <h3><strong>Full Stack: Gamer-Rater | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Gamerrater">API Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/gamerrater-client">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         Gamer-Rater is a full-stack web application that allows users to create, retrieve, update, and delete game entries, ratings, and reviews. Built with a Django REST Framework back-end and a React front-end, the app supports secure user authentication, game management, image uploads, and custom properties for calculating average game ratings. It also enables advanced search and sorting functionality, ensuring users can easily explore games. The project integrates SQLite3 for data storage and includes many-to-many relationships for categorizing games, displaying what I've learned in full-stack development, RESTful API design, and user authentication.
                         </p>
                         <br />
                         <hr />
                         <br />
-                        <h3><strong>Reader's Digest API | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">API Code</a></strong></h3>
+                        <h3><strong>Server-Side: Reader's Digest API | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/readers-digest">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         The Readers Digest API is a Django-based back-end application that enables users to create, retrieve, update, and delete book reviews. Built with Django REST Framework, the API supports secure user authentication, book and review management, and many-to-many relationships for categorizing books. It also integrates SQLite3 for data storage, uses fixtures for efficient database seeding, and includes CORS support to allow seamless frontend communication. This project demonstrates my ability to design RESTful APIs, manage relational databases, and implement user authentication in web applications.
                         </p>
                         <br />
                         <hr />
                         <br />
-                        <h3><strong>Learning Moments | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/learning-moments">Client Code</a></strong></h3>
+                        <h3><strong>Client-Side: Learning Moments | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/learning-moments">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         This application is a simple client-side CRUD application that uses a JSON database. It was developed as a learning project to understand the basics of client-side CRUD functionality in React prior to my capstone season. The goal of this app was to showcase whenever you or someone you know has an "ah-ha!" moment to share -- similar to a basic twitter clone.
                         </p>
                         <br />
                         <hr />
                         <br />
-                        <h3><strong>Honey Rae's Repairs | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/honey-rae-repairs">Client Code</a></strong></h3>
+                        <h3><strong>Client-Side: Honey Rae's Repairs | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/honey-rae-repairs">Client Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         Honey Rae Repairs is a basic CRUD (Create, Read, Update, Delete) application designed for a hardware tech repair shop. The app allows customers to create service tickets for their hardware issues and employees to claim and manage those tickets. This project was built using React and Vite, marking my first experience transitioning from vanilla JavaScript to React.
                         </p>
