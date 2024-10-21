@@ -23,16 +23,21 @@ export const Projects = () => {
                 </div>
                 <div id="default-styled-tab-content">
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">Client Code</a></strong></h3>
+                        <h3><strong>NSS Client-Side Capstone: Roll for Recipe | <a target="_blank" href='https://recipe-client-lshi3.ondigitalocean.app' className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" >Live Deployment</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">Client Code</a> | <a target="_blank" href='https://github.com/MichaelGalo/recipe-api' className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" >API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
                         Roll-for-Recipe allows a user to create, read, update and delete recipes while also giving the
-                        functionality to pick however many recipes a user thinks they'll need to cook that week. It will take from your saved recipes (whether authored or favorited) and generate random options to select from. In addition it will automatically create a shopping list that can be utilized while grocery shopping. Read on <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Roll-for-Recipe">here</a>.
+                        functionality to pick however many recipes a user thinks they'll need to cook that week. It will take from your saved recipes (whether authored or favorited) and generate random options to select from. In addition it will automatically create a shopping list that can be utilized while grocery shopping.
+                        <br />
+                        <br />
+                        After I presented my front-end capstone, I decided I wanted to build out an entire Django API for the front-end to run on in deployment, rather than the json-server that aided in my learning. While it was difficult to retrofit the client to a different API, it was a tremendous learning experience.
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
                         <h3><strong>NSS Server-Side Capstone: Impactree | (Currently Under Development) | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Impactree">Client Code</a> | <a target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/MichaelGalo/Impactree_API/tree/main">API Code</a></strong></h3>
                         <p class="text-sm text-black dark:text-gray-400">
-                        <p>Imagine a charity app that turns your generosity into a thriving virtual forest. With Impactree, you can easily track your donations to selected causes, see the real-world impact of your giving, and watch as your contributions grow from a tiny seed into a mighty redwood -- or a whole forest. Set giving goals based on your income, visualize your long-term impact, and challenge yourself to create an entire forest of change. Impactree makes philanthropy engaging and with clarity, helping you see how even small donations can make a big difference over time.</p>
+                        <p>
+                        With <strong>Impactree</strong>, you can easily discover charities doing amazing work and see the real-world impact of your giving at a glance at no cost. Set giving goals based on your income, visualize your long-term impact, and watch your seeds of change grow. Impactree makes philanthropy approachable for anyone, with clarity, helping you see how even small donations can make a big difference over time.
+                        </p>
                         </p>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-200 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
