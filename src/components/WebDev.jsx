@@ -1,11 +1,7 @@
-import "flowbite";
-
-export const Projects = () => {
-  return (
+export const WebDevProjects = () => {
+    return (
     <>
-      <section id="projects" className="mb-8 max-w-4xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-2">Projects</h2>
-        <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
           <ul
             class="flex flex-wrap -mb-px text-sm font-medium text-center"
             id="default-styled-tab"
@@ -412,11 +408,6 @@ export const Projects = () => {
             </p>
           </div>
         </div>
-      </section>
-    </>
-  );
-};
-
-{
-  /* <a target="_blank" href='https://recipe-client-lshi3.ondigitalocean.app' className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" >Live Deployment</a> | */
+        </>
+    )
 }
