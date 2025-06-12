@@ -87,10 +87,10 @@ export const DataProjects = () => {
               </strong>
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
-             This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress. 
+                This project involved integrating data from multiple sources into a PostgreSQL database to support stakeholder analysis. Using the provided API documentation and business requirements, we created tables to store client data retrieved from an external API. We then connected a secondary dataset from a CSV file. After transforming, loading and combining the two sources of data, we queried the database to extract key insights. We delivered an Excel report that addressed the outlined business needs. Our final presentation covered architectural decisions, challenges faced, and lessons learned.
               <br />
               <br />
-              <strong>Project Goals:</strong> This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress. 
+              <strong>Project Goals:</strong> The primary aim for this project was to learn how to gather data from multiple sources into a unified database, regardless of the original format. We learned how to use Postgres, Docker, Postman, Pandas and SQLAlchemy.
             </p>
             <br />
             <hr />
