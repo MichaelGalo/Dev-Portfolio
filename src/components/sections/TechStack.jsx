@@ -1,4 +1,4 @@
-import { ScrollingLogoSlider } from "./ScrollingLogoSlider";
+import { ScrollingLogoSlider } from "../ScrollingLogoSlider";
 
 export const TechStack = () => {
     return (

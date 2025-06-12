@@ -1,8 +1,8 @@
-import {Bio} from "../Bio"
-import { Contact } from "../Contact";
+import {Bio} from "../sections/Bio"
+import { Contact } from "../sections/Contact";
 import { Footer } from "../Footer";
-import { Projects } from "../Projects";
-import { TechStack } from "../TechStack";
+import { Projects } from "../sections/Projects";
+import { TechStack } from "../sections/TechStack";
 
 export const Home = () => {
 

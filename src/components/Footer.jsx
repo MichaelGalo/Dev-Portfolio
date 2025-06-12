@@ -30,7 +30,7 @@ export const Footer = () => {
         <hr className="my-6 border-gray-300 dark:border-gray-700" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-600 dark:text-gray-400 sm:text-center">
-            Michael Galo | Web Developer
+            Michael Galo | Web & Data Engineer
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 space-x-5">
             {socialLinks.map((item) => (
