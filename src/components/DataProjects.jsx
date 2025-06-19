@@ -80,7 +80,7 @@ export const DataProjects = () => {
                 <a
                   target="_blank"
                   className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                  href="https://github.com/NSS-Data-Engineering-May2025/project-1-jannells-car-sales-docker-compose-yourself-1"
+                  href="https://github.com/MichaelGalo/jannells-car-sales"
                 >
                 Code
                 </a>
@@ -97,7 +97,7 @@ export const DataProjects = () => {
             <br />
             <h3>
               <strong>
-                Project 2 Placeholder |{" "}
+                Group Project 2 Placeholder |{" "}
                   Code
               </strong>
             </h3>
@@ -113,19 +113,25 @@ export const DataProjects = () => {
             >
             <h3>
               <strong>
-                Placeholder Project 1 |{" "}
-                  Code
+                SFTP to Postgres Data Migration |{" "}
+                <a
+                  target="_blank"
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href="https://github.com/MichaelGalo/DE-Lab-1-9-moving-data-from-sftp-to-postgresql"
+                >
+                Code
+                </a>
               </strong>
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
-              This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress. 
+              This project automated the process of transferring CSV data from a secure SFTP server into a PostgreSQL database using Python. The script established a secure SFTP connection, uploaded and downloaded files, parsed the CSV data, and inserted the records into a target table using SQLAlchemy. Key technologies included Python, SQLAlchemy, pysftp, and environment variable management with dotenv. This workflow streamlined data migration and demonstrated best practices for secure file transfer and database integration in a data engineering context. 
             </p>
             <br />
             <hr />
             <br />
             <h3>
               <strong>
-                Placeholder Project 2 |{" "}
+                Individual Project 2 |{" "}
                   Code
               </strong>
             </h3>
