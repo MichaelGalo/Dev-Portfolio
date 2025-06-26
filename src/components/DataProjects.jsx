@@ -116,24 +116,6 @@ export const DataProjects = () => {
             >
             <h3>
               <strong>
-                SFTP to Postgres Data Migration |{" "}
-                <a
-                  target="_blank"
-                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                  href="https://github.com/MichaelGalo/DE-Lab-1-9-moving-data-from-sftp-to-postgresql"
-                >
-                Code
-                </a>
-              </strong>
-            </h3>
-            <p class="text-sm text-black dark:text-gray-400">
-              This project automated the process of transferring CSV data from a secure SFTP server into a PostgreSQL database using Python. The script established a secure SFTP connection, uploaded and downloaded files, parsed the CSV data, and inserted the records into a target table using SQLAlchemy. Key technologies included Python, SQLAlchemy, pysftp, and environment variable management with dotenv. This workflow streamlined data migration and demonstrated best practices for secure file transfer and database integration in a data engineering context. 
-            </p>
-            <br />
-            <hr />
-            <br />
-            <h3>
-              <strong>
                 Azure to Postgres Data Pipeline |{" "}
                   <a
                   target="_blank"
@@ -146,6 +128,24 @@ export const DataProjects = () => {
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
               This project implements an ELT data pipeline using an Azure Function App in Python to automate the movement and transformation of data between Azure Blob Storage and a PostgreSQL database. It extracts CSV files from Azure, loads them into Postgres, performs transformations via stored procedures, and exports the cleaned data as Excel files back to Azure. Key components include Azure Functions, Pandas, Docker for local Postgres setup, and SQL-based transformation logic, enabling scalable cloud-based data workflows in a modern data engineering context.
+            </p>
+            <br />
+            <hr />
+            <br />
+            <h3>
+              <strong>
+                SFTP to Postgres Data Migration |{" "}
+                <a
+                  target="_blank"
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href="https://github.com/MichaelGalo/DE-Lab-1-9-moving-data-from-sftp-to-postgresql"
+                >
+                Code
+                </a>
+              </strong>
+            </h3>
+            <p class="text-sm text-black dark:text-gray-400">
+              This project automated the process of transferring CSV data from a secure SFTP server into a PostgreSQL database using Python. The script established a secure SFTP connection, uploaded and downloaded files, parsed the CSV data, and inserted the records into a target table using SQLAlchemy. Key technologies included Python, SQLAlchemy, pysftp, and environment variable management with dotenv. This workflow streamlined data migration and demonstrated best practices for secure file transfer and database integration in a data engineering context. 
             </p>
             <br />
             <hr />
