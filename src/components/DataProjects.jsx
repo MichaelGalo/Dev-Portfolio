@@ -97,12 +97,15 @@ export const DataProjects = () => {
             <br />
             <h3>
               <strong>
-                Group Project 2 Placeholder |{" "}
+                NPPES Data Cleaning Pipeline |{" "}
                   Code
               </strong>
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
-              This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress. 
+              This project focused on integrating and enriching healthcare provider data from multiple sources to support geographic and demographic analysis. We extracted key provider details and enhanced them with taxonomy classifications from a lookup file. We ingested the full national dataset into a PostgreSQL database using a pagination, stored procedures and linked providers to U.S. counties by cross-referencing ZIP codes with mapping files and U.S. Census population data. The final output was a cleaned, structured dataset for analysis and Excel reporting, supported by a presentation covering architecture, challenges, and key decisions.
+              <br />
+              <br />
+              <strong>Project Goals:</strong> This project aimed to teach data integration across heterogeneous sources into a unified Postgres database. Tools used included Docker, Postman, SQLAlchemy, Pandas, and the U.S. Census API.
             </p>
           </div>
           <div
@@ -111,6 +114,24 @@ export const DataProjects = () => {
             role="tabpanel"
             aria-labelledby="data-individual-tab"
             >
+            <h3>
+              <strong>
+                Azure to Postgres Data Pipeline |{" "}
+                  <a
+                  target="_blank"
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href="https://github.com/MichaelGalo/azure-postgres-pipeline"
+                  >
+                  Code
+                  </a>
+              </strong>
+            </h3>
+            <p class="text-sm text-black dark:text-gray-400">
+              This project implements an ELT data pipeline using an Azure Function App in Python to automate the movement and transformation of data between Azure Blob Storage and a PostgreSQL database. It extracts CSV files from Azure, loads them into Postgres, performs transformations via stored procedures, and exports the cleaned data as Excel files back to Azure. Key components include Azure Functions, Pandas, Docker for local Postgres setup, and SQL-based transformation logic, enabling scalable cloud-based data workflows in a modern data engineering context.
+            </p>
+            <br />
+            <hr />
+            <br />
             <h3>
               <strong>
                 SFTP to Postgres Data Migration |{" "}
@@ -125,18 +146,6 @@ export const DataProjects = () => {
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
               This project automated the process of transferring CSV data from a secure SFTP server into a PostgreSQL database using Python. The script established a secure SFTP connection, uploaded and downloaded files, parsed the CSV data, and inserted the records into a target table using SQLAlchemy. Key technologies included Python, SQLAlchemy, pysftp, and environment variable management with dotenv. This workflow streamlined data migration and demonstrated best practices for secure file transfer and database integration in a data engineering context. 
-            </p>
-            <br />
-            <hr />
-            <br />
-            <h3>
-              <strong>
-                Individual Project 2 |{" "}
-                  Code
-              </strong>
-            </h3>
-            <p class="text-sm text-black dark:text-gray-400">
-              This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress. 
             </p>
             <br />
             <hr />
