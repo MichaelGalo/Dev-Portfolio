@@ -98,7 +98,10 @@ export const DataProjects = () => {
             <h3>
               <strong>
                 NPPES Data Cleaning Pipeline |{" "}
-                  Code
+                  <a
+                  target="_blank"
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  href="https://github.com/MichaelGalo/NPPES_Data_Cleaning_Pipeline">Code</a>
               </strong>
             </h3>
             <p class="text-sm text-black dark:text-gray-400">
