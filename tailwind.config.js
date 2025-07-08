@@ -14,7 +14,7 @@ export default {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-400%)' },
+          '100%': { transform: 'translateX(-300%)' },
         },
       },
     },
