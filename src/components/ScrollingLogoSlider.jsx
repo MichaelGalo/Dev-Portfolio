@@ -44,20 +44,32 @@ const logos = [
     alt: "PostgreSQL"
   },
   {
+    url: "https://img.shields.io/badge/DuckDB-ffcd00?style=for-the-badge&logo=data:image/svg+xml;base64,BASE64_ENCODED_SVG_HERE&logoColor=black",
+    alt: "DuckDB"
+  },
+  {
+    url: "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+    alt: "Docker"
+  },
+  {
+    url: "https://img.shields.io/badge/dbt-FC6D26?style=for-the-badge&logo=dbt&logoColor=white",
+    alt: "dbt"
+  },
+  {
+    url: "https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white",
+    alt: "Apache Airflow"
+  },
+  {
+    url: "https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge&logo=snowflake&logoColor=white",
+    alt: "Snowflake"
+  },
+  {
     url: "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white",
     alt: "SQLite"
   },
   {
     url: "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white",
     alt: "MongoDB"
-  },
-  {
-    url: "https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white",
-    alt: "Pandas"
-  },
-  {
-    url: "https://img.shields.io/badge/SQLAlchemy-CA1F27?style=for-the-badge&logo=sqlalchemy&logoColor=white",
-    alt: "SQLAlchemy"
   },
   {
     url: "https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white",
