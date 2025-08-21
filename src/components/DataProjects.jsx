@@ -175,6 +175,27 @@ export const DataProjects = () => {
         >
           <h3>
             <strong>
+              NYC Government Job Posting & Payroll Audit Platform (duckdb/ducklake) |{" "}
+              <a
+                target="_blank"
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://github.com/MichaelGalo/NYC-Government-Hiring-Audit-Data-Platform"
+              >
+                Code
+              </a>
+            </strong>
+          </h3>
+          <p className="text-sm text-black dark:text-gray-400">
+            This project builds a comprehensive data pipeline to audit NYC government hiring practices. The pipeline integrates data from multiple sources, including NYC Open Data (Payroll, Job Postings) and Lighthouse Data Analytics, to reconcile job titles using fuzzy string matching and calculate key audit metrics. The final datasets are delivered to DuckDB, and API for analysis and a Streamlit dashboard, ensuring a 5-day turnaround for actionable insights.
+            <br />
+            <br />
+            <strong>Project Goals:</strong> This project was primarily focused on creating a full data pipeline and analysis dashboard alone, with a heavy emphasis on fuzzy matching efficiency & accuracy. It was also my first exploration into Streamlit.
+          </p>
+          <br />
+          <hr className="border-t-2 border-gray-500 dark:border-gray-300" />
+          <br />
+          <h3>
+            <strong>
               Marvan Multi-National Covid-19 Data Pipeline (duckdb/ducklake) |{" "}
               <a
                 target="_blank"
