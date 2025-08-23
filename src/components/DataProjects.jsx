@@ -81,7 +81,7 @@ export const DataProjects = () => {
             </strong>
           </h3>
           <p className="text-sm text-black dark:text-gray-400">
-            This section is intentionally reserved for upcoming project details and portfolio expansions. I am actively developing new applications and refining current ideas to better reflect my evolving skill set. Information about these future projects, including technical overviews, challenges tackled, and deployed links, will be featured here. Please check back soon for updates as this area will grow alongside my experience. Until then, thank you for visiting and taking the time to explore my work in progress.
+            This section is intentionally blank and reserved for my upcoming Data Engineering Capstone. I am actively developing it, and I can't wait to share it with you once it's complete! As a sneak peek, this project will involve building a comprehensive data pipeline that integrates multiple data sources, performs complex transformations, and exposes data programmatically to be consumed by web developers. My hope is to be able to combine my proficiency with both data engineering and web development to create a full-stack data application.
           </p>
         </div>
 
